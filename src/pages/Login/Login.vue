@@ -7,8 +7,8 @@
           <div class="login_header">
               <h2 class="login_logo">外卖</h2>
               <div class="login_header_title">
+                  <a  class="on" href="javascript:">短信登录222</a>
                   <a  href="javascript:">密码登录</a>
-                  <a class="on" href="javascript:">短信登录</a>
               </div>
           </div>
           <div class="login_content">
@@ -25,6 +25,9 @@
                          温馨提示：未注册硅谷外卖帐号的手机号，登录时将自动注册，且代表已同意
                          <a href="javascript:;">《用户服务协议》</a>
                       </section>
+                  </div>
+                  <div>
+
                   </div>
                 <button class="login_submit">登录</button>
 
