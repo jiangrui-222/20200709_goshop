@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <!-- $route 指当前路由 -->
+    <!-- $route 指当前路由121122112 -->
     <footer-guide v-show="$route.meta.showFooter === true"></footer-guide>
   </div>
 </template>
