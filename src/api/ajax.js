@@ -6,5 +6,6 @@ ajax请求函数模块
 import axiox from 'axios';
 
 export default function ajax(){
-
+ 
+    
 }
