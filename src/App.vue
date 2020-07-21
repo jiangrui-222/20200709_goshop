@@ -8,7 +8,18 @@
 
 <script>
 import FooterGuide from './components/FooterGuide/FooterGuide';
+import {reqFoodCategorys} from './api';
+
+
 export default {
+
+  //  mounted(){
+  //  reqFoodCategorys().then( res =>{
+  //   console.log(res)
+
+  //  })
+  // },
+
   name: 'App',
   components: {
     FooterGuide

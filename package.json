@@ -12,9 +12,15 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "babel-plugin-component": "^1.1.1",
+    "better-scroll": "^1.15.2",
+    "date-fns": "^2.15.0",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.27.0",
     "swiper": "^3.4.2",
     "vue": "^2.5.2",
-    "vue-router": "^3.3.4"
+    "vue-router": "^3.3.4",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -62,7 +68,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.5",
     "webpack-merge": "^4.1.0"
   },
   "engines": {

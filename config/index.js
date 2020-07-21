@@ -10,7 +10,22 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {//配置代理
+      '/api': { // 匹配所有以 '/api'开头的请求路径
+        target: 'http://192.168.1.2:4000', // 代理目标的基础路径
+        changeOrigin: true, // 支持跨域
+        pathRewrite: {// 重写路径: 去掉 路径中开头的'/api'
+          '^/api': ''
+        }
+      },
+      '/mock': { // 匹配所有以 '/api'开头的请求路径
+        target: 'http://mock.studyinghome.com/mock/5f0da0e0e525ff20854f7c0e/shop', // 代理目标的基础路径
+        changeOrigin: true, // 支持跨域
+        pathRewrite: {// 重写路径: 去掉 路径中开头的'/mock'
+          '^/mock': ''
+        }
+      }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

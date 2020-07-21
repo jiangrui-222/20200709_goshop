@@ -8,5 +8,11 @@
     }],
     "stage-2"
   ],
-  "plugins": ["transform-vue-jsx", "transform-runtime"]
+  //实现按需打包
+  "plugins": ["transform-vue-jsx", "transform-runtime",["component", [
+    {
+      "libraryName": "mint-ui",
+      "style": true
+    }
+  ]]]
 }
