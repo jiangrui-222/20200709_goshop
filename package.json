@@ -16,7 +16,7 @@
     "better-scroll": "^1.15.2",
     "date-fns": "^2.15.0",
     "mint-ui": "^2.2.13",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "swiper": "^3.4.2",
     "vue": "^2.5.2",
     "vue-router": "^3.3.4",
